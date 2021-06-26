@@ -81,12 +81,16 @@
 }
 
 @media all and (min-width:300px) and (max-width:700px) {
+    .fullscreen-bg {
+        padding-top: 55%;
+    }
+    
     .overlay h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .overlay p {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .pointer {
