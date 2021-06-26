@@ -79,3 +79,17 @@
         transform: rotate(45deg) translate(20px,20px);
     }
 }
+
+@media all and (min-width:300px) and (max-width:700px) {
+    .overlay h1 {
+        font-size: 20px;
+    }
+
+    .overlay p {
+        font-size: 10px;
+    }
+
+    .pointer {
+        display: none;
+    }
+}
