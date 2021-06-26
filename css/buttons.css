@@ -1,3 +1,12 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  right: 50px;
+  bottom: 20px;
+  align-items: center;
+  position: fixed;
+}
+
 h4 {
     display: none;
   }
@@ -10,7 +19,7 @@ h4 {
   }
   
   #buttonemail img {
-    width: 65px;
+    width: 70px;
   }
   
   #buttonemail:hover {
@@ -21,13 +30,8 @@ h4 {
   
   #buttonemail {
     transition: 0.3s;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    bottom: 30px; 
-    right: 60px; 
-    position: fixed;
     cursor:pointer;
+
   }
   
   #textemail h4 {
@@ -48,7 +52,7 @@ h4 {
     display: flex;
     position: fixed;
     right: 140px; 
-    bottom:140px;
+    bottom:120px;
     width: 350px;
   }
   
@@ -64,13 +68,8 @@ h4 {
   
   #buttonsale {
     transition: 0.3s;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    bottom: 115px; 
-    right: 60px; 
-    position: fixed;
     cursor:pointer;
+    margin-bottom: 15%;
   }
   
   #textsale h5 {
@@ -97,8 +96,7 @@ h4 {
       font-size: 90%;
     }
   }
-
-  @media all and (min-width:300px) and (max-width:700px) {
+  /* @media all and (min-width:300px) and (max-width:700px) {
     #buttonemail img {
       width:45px;
     }
@@ -115,5 +113,26 @@ h4 {
     #buttonsale {
       bottom: 70px;
       right: 8px;
+    }
+  } */
+
+  @media all and (min-width:300px) and (max-width:700px) {
+    #buttonemail img {
+      width:45px;
+    }
+
+    #buttonemail {
+      bottom: 15px;
+      right: 8px;
+    }
+
+    #buttonsale img {
+      width:50px;
+    }
+
+    #buttonsale {
+      width:100%;
+      background-color:rgb(250, 159, 159);
+      bottom: 0px;
     }
   }
