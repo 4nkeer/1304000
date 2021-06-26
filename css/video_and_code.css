@@ -65,7 +65,7 @@
 
 /* Видео */
 .video {
-    padding-bottom: 10%;
+    padding-bottom: 20%;
     background-image: url("/images/background.jpg");
     background-attachment: fixed;
 }
@@ -128,5 +128,10 @@
 
     .textright {
         display: none;
+    }
+
+    .iframevideo iframe {
+        height: 300px;
+        width: 700px;
     }
 }
