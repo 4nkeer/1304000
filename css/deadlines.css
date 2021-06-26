@@ -1,0 +1,60 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    transition: 0.3s;
+}
+
+.heading hr {
+    width: 30%;
+   margin: auto;
+   color:black;
+   border-radius:10px;
+   border: none;
+   height: 3px;
+}
+.two img {
+    width: 50%;
+}
+
+.two {
+    margin: auto;
+    text-align: center;
+}
+
+.two p {
+    margin: auto;
+    font-size: 20px;
+}
+
+.three img {
+    width: 50%;
+}
+
+.three {
+    margin: auto;
+    text-align: center;
+}
+
+.three p {
+    margin: auto;
+    font-size: 20px;
+}
+
+.deadl {
+    width:30%
+}
+
+.listdeadlines {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+  @media all and (min-width:1000px) and (max-width:1280px) {
+      .degulop {
+          width: 50%;
+      }
+      
+  }

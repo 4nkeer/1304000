@@ -1,0 +1,110 @@
+/* Верхняя анимация текста */
+.textt {
+    display: flex;
+    justify-content: center;
+}
+.texttop {
+    -webkit-user-select: none;
+    margin-top: 4%;
+    color: white;
+    font-family: 'Lucida Console';
+    background-color: rgba(20, 20, 20, 0.37);
+    width: 16%;
+    border-radius: 15px;
+}
+.text2 {
+    margin-top: 5%;
+}
+
+
+
+/* Правая анимация текста */
+.textright {
+    position: absolute;
+    right: 3%;
+    margin-top: 14%;
+    width: 20%;
+    cursor: default;
+    background-color: rgba(20, 20, 20, 0.37);
+    border-radius: 15px;
+    -webkit-user-select: none;
+    font-family: 'Lucida Console';
+  
+}
+
+#text3 {
+    color: white;
+    margin-top: 3%;
+    margin-left: 11%;
+}
+
+
+/* Левая анимация текста */
+.textleft {
+    position: absolute;
+    width: 15%;
+    margin-top: 14%;
+    margin-left: 3%;
+    cursor: default;
+    background-color: rgba(20, 20, 20, 0.37);
+    border-radius: 15px;
+    -webkit-user-select: none;
+    font-family: 'Lucida Console';
+}
+#text1 {
+    color: white;
+    margin-top: 3%;
+    margin-left: 11%;
+    
+}
+
+
+
+/* Видео */
+.video {
+    padding-bottom: 10%;
+    background-image: url("/images/background.jpg");
+    background-attachment: fixed;
+}
+
+.iframevideo {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.iframevideo iframe {
+    margin-top: 6%;
+    -webkit-box-shadow: 0px 0px 31px 5px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 31px 5px rgba(255, 0, 0, 0.2);
+    box-shadow: 0px 0px 31px 5px rgba(255, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.iframevideo iframe:hover {
+    -webkit-box-shadow: 0px 0px 31px 5px rgba(0, 255, 244, 0.2);
+    -moz-box-shadow: 0px 0px 31px 5px rgba(0, 255, 244, 0.2);
+    box-shadow: 0px 0px 31px 5px rgba(0, 255, 244, 0.2);
+    transition: 0.3s;
+}
+
+@media all and (min-width:1000px) and (max-width:1280px) {
+    .iframevideo {
+        width: 50%;
+    }
+
+    .textleft {
+        font-size: 12px;
+    }
+
+    .textright {
+        font-size: 12px;
+    }
+    
+    .texttop {
+        font-size: 12px;
+        width: 20%;
+    }
+}
