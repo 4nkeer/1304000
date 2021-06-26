@@ -19,7 +19,17 @@
         margin-top:  8.3%;
     }
 
+    .heading h1 {
+        font-size: 20px;
+    }
 
+    .text p {
+        font-size: 14px;
+    }
+
+    .listdeadlines li {
+        font-size: 13px;
+    }
 }
 
 .heading {

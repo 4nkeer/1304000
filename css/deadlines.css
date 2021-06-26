@@ -58,3 +58,20 @@
       }
       
   }
+
+  @media all and (min-width:300px) and (max-width:1280px) {
+      .two p {
+        font-size: 13px;
+      }
+      .two img {
+          width:100%
+      }
+
+      .three p {
+          font-size: 13px;
+      }
+
+      .three img {
+          width:100%;
+      }
+  }
