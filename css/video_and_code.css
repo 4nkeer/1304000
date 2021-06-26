@@ -20,8 +20,10 @@
 
 /* Правая анимация текста */
 .textright {
+    opacity: 0.3;
     position: absolute;
-    right: 3%;
+    right: 7%;
+    margin: auto;
     margin-top: 14%;
     width: 20%;
     cursor: default;
@@ -41,6 +43,7 @@
 
 /* Левая анимация текста */
 .textleft {
+    opacity: 0.3;
     position: absolute;
     width: 15%;
     margin-top: 14%;
@@ -91,8 +94,13 @@
 }
 
 @media all and (min-width:1000px) and (max-width:1280px) {
-    .iframevideo {
-        width: 50%;
+    .iframevideo iframe {
+        width: 600px;
+        height: 400px;
+    }
+
+    .textright {
+        right: 3%;
     }
 
     .textleft {
