@@ -97,3 +97,23 @@ h4 {
       font-size: 90%;
     }
   }
+
+  @media all and (min-width:300px) and (max-width:700px) {
+    #buttonemail img {
+      width:45px;
+    }
+
+    #buttonemail {
+      bottom: 15px;
+      right: 8px;
+    }
+
+    #buttonsale img {
+      width:50px;
+    }
+
+    #buttonsale {
+      bottom: 70px;
+      right: 8px;
+    }
+  }
