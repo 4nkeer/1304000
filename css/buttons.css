@@ -95,25 +95,6 @@ h4 {
       font-size: 90%;
     }
   }
-  /* @media all and (min-width:300px) and (max-width:700px) {
-    #buttonemail img {
-      width:45px;
-    }
-
-    #buttonemail {
-      bottom: 15px;
-      right: 8px;
-    }
-
-    #buttonsale img {
-      width:50px;
-    }
-
-    #buttonsale {
-      bottom: 70px;
-      right: 8px;
-    }
-  } */
 
   @media all and (min-width:300px) and (max-width:700px) {
    
@@ -132,11 +113,9 @@ h4 {
     .email {
       width:50%;
       background-color:rgb(169, 192, 253);
-      text-align: center;
     }
 
     .sale {
-      text-align: center;
       width:50%;
       background-color:rgb(250, 159, 159);
     }
@@ -158,6 +137,7 @@ h4 {
     }
 
     #textemail h4 {
+      font-size: 15px;
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
       border-bottom-left-radius: 0px;
