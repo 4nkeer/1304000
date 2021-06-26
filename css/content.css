@@ -12,7 +12,15 @@
     transition: 0.3s;
 }
 
+@media all and (min-width:300px) and (max-width:700px) {
+    .content {
+        width:80%;
+        margin: auto;
+        margin-top:  8.3%;
+    }
 
+
+}
 
 .heading {
     text-align: center;
@@ -23,6 +31,7 @@
     margin-top: 3%;
 }
 
+/* Дизайн списков */
 .listdeadlines {
     padding:0;
     list-style: none;
