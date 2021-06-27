@@ -122,6 +122,18 @@ h4 {
       background-color:rgb(169, 192, 253);
     }
 
+    .sale:hover {
+      filter: none;
+      -webkit-transform: none;
+      transition: 0.3s;
+    }
+
+    .email:hover {
+      filter: none;
+      -webkit-transform: none;
+      transition: 0.3s;
+    }
+
     .sale {
       width:50%;
       background-color:rgb(250, 159, 159);
