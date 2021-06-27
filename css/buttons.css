@@ -20,8 +20,12 @@ h4 {
   #buttonemail img {
     width: 70px;
   }
-  
-  #buttonemail:hover {
+
+  .sale {
+    transition: 0.3s;
+  }
+
+  .sale:hover {
     filter: brightness(1.15);
     -webkit-transform: scale(1.1) rotate(360deg);;
     transition: 0.3s;
@@ -58,8 +62,12 @@ h4 {
   #buttonsale img {
     width: 70px;
   }
+
+  .email {
+    transition: 0.3s;
+  }
   
-  #buttonsale:hover {
+  .email:hover {
     filter: brightness(1.15);
     -webkit-transform: scale(1.1) rotate(360deg);
     transition: 0.3s;
