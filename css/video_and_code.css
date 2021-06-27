@@ -66,8 +66,10 @@
 /* Видео */
 .video {
     padding-bottom: 20%;
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .iframevideo {
@@ -115,6 +117,11 @@
         font-size: 12px;
         width: 20%;
     }
+
+    .video {
+        background-size: 300%;
+        background-position: center;
+    }
 }
 
 @media all and (min-width:300px) and (max-width:700px) {
@@ -133,5 +140,10 @@
     .iframevideo iframe {
         height: 300px;
         width: 700px;
+    }
+    
+    .video {
+        background-size: 300%;
+        background-position: center;
     }
 }
